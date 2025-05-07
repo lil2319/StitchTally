@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css'
-import StitchTally from './assets/Stitch-Tally.png'
+import StitchTally from './assets/StitchTally.png'
 
 function App() {
   const [stitchCount, setStitchCount] = useState(0)
