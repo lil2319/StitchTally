@@ -68,7 +68,7 @@ function App() {
     <div className="container">
       <div className='content'>
         <img src={StitchTally} alt="StitchTally Logo" className="logo" />
-        <h1 className="title">🧶 StitchTally</h1>
+        <h1 className="title">StitchTally</h1>
 
         <select className="input" value={projectName} onChange={handleProjectChange}>
           <option value="">Select Project</option>
