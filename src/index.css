@@ -16,23 +16,24 @@
 }
 
 .title {
-  font-size: 28px;
-  font-weight: 600;
-  font-family: Abril Fatface;
-  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
   margin-bottom: 30px;
-  color: #333;
+  color: #5C4B51;
+  text-align: center;
 }
+
 
 .input {
   background-color: #C8D5B9;
-  font-family: Abril Fatface;
+  font-family: 'Roboto', sans-serif;
   padding: 16px;
   margin-bottom: 24px;
   border-radius: 12px;
   font-size: 18px;
   width: 100%;
   box-sizing: border-box;
+  box-shadow: 0 8px 9px rgba(0, 0, 0, 0.1);
 }
 
 .counterRow {
@@ -60,10 +61,12 @@
   border-radius: 12px;
   margin-top: 10px;
   padding: 5px;
+  box-shadow: 0 8px 9px rgba(0, 0, 0, 0.1);
 }
 
 .label {
   font-size: 16px;
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 5px;
 }
 
@@ -82,7 +85,7 @@
 }
 
 .buttonText {
-  font-family: Abril Fatface;
+  font-family: 'Roboto', sans-serif;
   color: white;
   font-size: 24px;
   font-weight: bold;
@@ -95,6 +98,7 @@
   border-radius: 8px;
   border: none;
   cursor: pointer;
+  box-shadow: 0 8px 9px rgba(0, 0, 0, 0.1);
 }
 
 .saveButton {
@@ -104,4 +108,12 @@
   border-radius: 8px;
   border: none;
   cursor: pointer;
+  box-shadow: 0 8px 9px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  max-width: 50%;
+  max-height: 50%;
+  display: block;
+  margin: 2rem auto;
 }
